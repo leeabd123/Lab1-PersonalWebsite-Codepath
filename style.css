@@ -1,0 +1,253 @@
+
+.top_page {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Patua One', cursive; 
+    font-size: 30px;
+
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/* SECTIONS */
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 110px;
+    height: 600px;
+    background-color: whitesmoke;
+    border-radius: 8%;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-style: solid;
+    border-radius: 70px;
+
+
+
+}
+.the_header {
+    padding-top: 25px;
+    width: 600px;
+    height: 600px;
+    border-radius: 8%;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+/* PFP */
+.pfp {
+    width: 400px;
+    height: 400px;
+    justify-content: right;
+    margin-top: 100px;
+    margin-right: 200px;
+
+}
+
+.cat {
+    flex-shrink: 2;
+    border-radius: 20%;
+
+}
+
+/* BIO */
+
+.bio {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    border-radius: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.location {
+    border-radius: 5%;
+    margin-left: 10px;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    background-color:  #F5EFE7;
+    align-self: flex-start;
+
+}
+.ballet {
+    border-radius: 5%;
+
+    width: 400px;
+    height: 400px;
+    background-color: #E893CF;
+    align-self: flex-end;
+
+}
+.makeup {
+    border-radius: 5%;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    background-color:  #F5EFE7;
+    align-self: flex-start;
+
+
+
+}
+.hiking {
+    border-radius: 5%;
+    width: 400px;
+    height: 400px;
+    background-color: #E893CF;
+    align-self: flex-end;
+
+
+}
+.Gym {
+    border-radius: 5%;
+
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    background-color:  #F5EFE7;
+    align-self: flex-start;
+}
+
+.bio_line {
+    width: auto;
+    height: 100px;
+    border-radius: 5%;
+    background-color: #4F709C;
+
+}
+
+
+.portfolio {
+   
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -20px;
+    height: 300px;
+    border-radius: 3%;
+    display: flex;
+    
+    flex-direction: col;
+    justify-content: space-around;  
+    margin-top: 60px
+}
+
+.proj_line {
+    width: auto;
+    height: 100px;
+    border-radius: 5%;
+    background-color: #4F709C;
+    margin-bottom: 100px;
+
+}
+
+.left-proj {
+    margin-top: -20px;
+    width:700px;
+    height: 550px;
+    border-radius: 5%;
+    background-color: whitesmoke;
+}
+
+.right-proj {
+    margin-top: -20px;
+    width:700px;
+    height: 550px;
+    border-radius: 5%;
+    background-color: whitesmoke;
+
+}
+
+.contact-me {
+    margin-top: 300px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 100px;
+    background-color: #E893CF;
+}
+
+/* TEXt */
+
+.header_text {
+    text-align: center;
+    font-family: 'Patua One', cursive; 
+    font-size: 50px;
+}
+.bio-text {
+    text-align: center;
+    font-family: 'Patua One', cursive; 
+    font-size: 80px;
+    color: black;
+}
+
+.skill_text {
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Patua One', cursive; 
+    font-size: 60px;
+}
+
+.maze-game {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Patua One', cursive; 
+    font-size: 30px;
+    color: black;
+}
+
+.personal-website {
+    text-align: center;
+    font-family: 'Patua One', cursive; 
+    font-size: 30px;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.project-text {
+    padding-top: 10px;
+
+    text-align: center;
+    font-family: 'Patua One', cursive; 
+    font-size: 30px;
+    color: black;
+
+    padding-left: 30px;
+    padding-right: 30px
+
+}
+
+.contact-me {
+    text-align: center;
+    font-family: 'Patua One', cursive; 
+    font-size: 80px;
+}
+a {
+    color: black;
+}
